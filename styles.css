@@ -5,6 +5,9 @@
     margin: 2px;
     color: white;
 }
+a {
+ text-decoration: none;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -135,4 +138,10 @@ footer {
     align-items: center;
     padding: 40px;
     background-color: #1f2937;
+}
+img:hover {
+    transform: scale(2);
+    padding: 10%;
+    margin: 30px;
+    
 }
