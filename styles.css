@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+
+* {
+    margin: 2px;
+    color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: black;
+ height: 100vh;
+flex: 1;
+font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+background-color: #1f2937;
+     
+}
+.info {
+background-color: #1f2937;
+display: flex;
+align-items:center;
+justify-content: space-between;
+padding: 40px;
+
+}
+.info img{
+ 
+ min-width: 40%;
+ height: auto;
+ padding:50px;
+ border-radius: 15%;
+ 
+}
+
+
+.info p {
+    color: whitesmoke;
+}
+
+
+
+button {
+    background-color: rgb(93, 93, 230);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top:2rem;
+}
+button:hover {
+    color: red;
+    background-color: yellowgreen;
+    transform: scale(1.5);
+    margin: 15px;
+}
+
+.main {
+
+display: flex;
+flex-direction:column;
+background-color: #1f2937;
+}
+
+.images {
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0px;
+    background-color: antiquewhite;
+      
+}
+
+figcaption {
+    color: #1f2937;
+}
+
+.quote {
+    margin-top: 5rem;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    padding: 50px 100px;
+    margin: 0px;
+}
+
+p {
+    color: #1f2937;
+    font-style: italic;
+}
+
+#author {
+    font-style: bold;
+    text-align: end;
+    font-weight: 100;
+}
+
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 100px;
+}
+
+.signup {
+    background-color: rgb(94, 94, 243);
+    padding: 20px;
+    border-radius: 1rem;
+    
+    
+}
+.signup p{
+color: whitesmoke;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1f2937;
+}
